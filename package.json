@@ -1,6 +1,6 @@
 {
   "name": "hindsight-splash",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "devDependencies": {
     "browser-sync": "^1.5.9",
     "del": "^0.1.3",
