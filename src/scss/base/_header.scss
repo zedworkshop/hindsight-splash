@@ -32,9 +32,9 @@ h2.comingsoon {
 	font-size: 1.1rem;
 	font-weight: 300;
 	margin: 3rem 0 0;
-	text-align: center;
 
 	@media #{$breakpoint-sm} {
 		margin-top: 4rem;
+		text-align: center;
 	}
 }

@@ -1530,11 +1530,11 @@ h2.comingsoon {
   font-size: 1.1rem;
   font-weight: 300;
   margin: 48px 0 0;
-  margin: 3rem 0 0;
-  text-align: center; }
+  margin: 3rem 0 0; }
   @media (min-width: 40em) {
     h2.comingsoon {
-      margin-top: 4rem; } }
+      margin-top: 4rem;
+      text-align: center; } }
 
 .sitefooter {
   position: absolute;
