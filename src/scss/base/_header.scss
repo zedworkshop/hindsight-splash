@@ -3,6 +3,10 @@
 	padding: 1rem;
 	width: 70%;
 	max-width: 360px;
+
+	@media #{$breakpoint-sm} {
+		padding: 2rem;
+	}
 }
 
 .logo {
@@ -20,7 +24,6 @@
 	@media #{$breakpoint-sm} {
 		background: rgba(#000, 0.4);
 		box-shadow: rgba(#000, 0.4) 0 0 70px 70px;
-		padding: 2rem;
 	}
 }
 
@@ -30,4 +33,8 @@ h2.comingsoon {
 	font-weight: 300;
 	margin: 3rem 0 0;
 	text-align: center;
+
+	@media #{$breakpoint-sm} {
+		margin-top: 4rem;
+	}
 }
