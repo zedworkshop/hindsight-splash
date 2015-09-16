@@ -1,0 +1,25 @@
+{
+  "name": "hindsight-splash",
+  "version": "0.0.2",
+  "authors": [
+    "Adam Campbell <adam@zedworkshop.com>"
+  ],
+  "description": "Hindsight Coffe Co. splash page",
+  "main": "index.php",
+  "license": "MIT",
+  "homepage": "https://hindsightcoffee.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "~2.8.3",
+    "imagesloaded": "~3.1.8",
+    "jquery": "~2.1.4",
+    "basscss": "~7.0.0",
+    "normalize.css": "~3.0.3"
+  }
+}

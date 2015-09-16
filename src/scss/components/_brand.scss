@@ -1,0 +1,67 @@
+.UGW-logo {
+	min-width: 2in;
+	max-width: 40rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*
+	Background Colors
+*/
+
+.bg-green {
+	background-color: $green;
+
+	&-lighter { background-color: $green-lighter; }
+	&-light {   background-color: $green-light; }
+	&-dark {  	background-color: $green-dark; }
+	&-darker { 	background-color: $green-darker; }
+}
+
+.bg-red {
+	background-color: $red;
+
+	&-lighter { background-color: $red-lighter; }
+	&-light {   background-color: $red-light; }
+	&-dark {  	background-color: $red-dark; }
+	&-darker { 	background-color: $red-darker; }
+}
+
+.bg-cream {
+	background-color: $cream;
+
+	&-lighter { background-color: $cream-lighter; }
+	&-light {   background-color: $cream-light; }
+	&-dark {  	background-color: $cream-dark; }
+	&-darker { 	background-color: $cream-darker; }
+}
+
+.bg-alt-1 { background-color: $alt-1; }
+.bg-alt-2 { background-color: $alt-2; }
+.bg-alt-3 { background-color: $alt-3; }
+.bg-alt-4 { background-color: $alt-4; }
+.bg-alt-5 { background-color: $alt-5; }
+.bg-alt-6 { background-color: $alt-6; }
+.bg-alt-7 { background-color: $alt-7; }
+.bg-alt-8 { background-color: $alt-8; }
+
+
+/*
+	Colors
+*/
+
+.green {
+	color: $green;
+}
+
+.red {
+	color: $red;
+}
+
+.red-darker {
+	color: $red-darker;
+}
+
+.cream-darker {
+	color: $cream-darker;
+}
