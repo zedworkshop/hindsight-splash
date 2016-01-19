@@ -1,4 +1,4 @@
-.siteheader {	
+.siteheader {
 	margin: 1rem 0 0 1rem;
 	padding: 1rem;
 	width: 70%;
@@ -28,13 +28,11 @@
 }
 
 h2.comingsoon {
-	color: #fff;
-	font-size: 1.1rem;
 	font-weight: 300;
 	margin: 3rem 0 0;
+	text-align: left;
 
 	@media #{$breakpoint-sm} {
 		margin-top: 4rem;
-		text-align: center;
 	}
 }
