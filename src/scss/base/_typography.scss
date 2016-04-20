@@ -1,53 +1,63 @@
 body {
-	color: #333;
+  color: #333;
 }
 
-body, h1,h2,h3,h4,h5,h6,p,ul,ol {
-	font-family: $sans-serif;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  font-family: $sans-serif;
 }
 
 h1 {
-	@media #{$breakpoint-md} {
-		font-size: 2.8rem;
-	}
+  @media #{$breakpoint-md} {
+    font-size: 2.8rem;
+  }
 
-	@media #{$breakpoint-md} {
-		font-size: 3.5rem;
-	}
+  @media #{$breakpoint-md} {
+    font-size: 3.5rem;
+  }
 
-	@media #{$breakpoint-xl} {
-		font-size: 5rem;
-	}
+  @media #{$breakpoint-xl} {
+    font-size: 5rem;
+  }
 }
 
 h2 {
-	font-size: 1.4rem;
+  font-size: 1.4rem;
 
-	@media #{$breakpoint-xl} {
-		font-size: 2rem;
-	}
+  @media #{$breakpoint-xl} {
+    font-size: 2rem;
+  }
 }
 
 h3 {
-	font-size: 1.2rem;
-	font-weight: 700;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
 
-	@media #{$breakpoint-xl} {
-		font-size: 1.8rem;
-	}
+  @media #{$breakpoint-xl} {
+    font-size: 1.8rem;
+  }
 }
 
 a {
-	color: #fff;
-	text-decoration: underline;
+  color: #fff;
+  text-decoration: underline;
 }
 
 p {
-	font-size: 0.9rem;
+  font-size: 0.9rem;
 
-	@media #{$breakpoint-xl} {
-		font-size: 1.2rem;
-	}
+  @media #{$breakpoint-xl} {
+    font-size: 1.2rem;
+  }
 }
 
 /*
@@ -55,19 +65,17 @@ p {
 */
 
 .hairline {
-	font-weight: 100;
+  font-weight: 100;
 }
 
 .thin {
-	font-weight: 300;
+  font-weight: 300;
 }
 
 .small {
-	font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
 .xsmall {
-	font-size: 0.7rem;
+  font-size: 0.7rem;
 }
-
-

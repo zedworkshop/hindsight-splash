@@ -35,7 +35,11 @@ gulp.task('styles', function() {
         .pipe($.autoprefixer(['last 5 versions', '> 1%', 'ie 8', 'ie 7'], {
             cascade: true
         }))
-        .pipe($.pixrem())
+        .pipe($.pixrem())        
+        .pipe($.cleanCss({debug: true}, function(details) {
+           console.log(details.name + ': ' + details.stats.originalSize);
+           console.log(details.name + ': ' + details.stats.minifiedSize);
+         }))
         .pipe(gulp.dest(paths.dev + '/css'))
         .pipe($.size({
             showFiles: true
